@@ -1,0 +1,28 @@
+.area {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #00008b;
+    width: 100%;
+    color: white;
+    padding: 22px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.area > h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.area > h1:first-of-type {
+    color: #11ec30;
+}
+
+.area > h1:last-of-type > span {
+    color: #11ec30;
+    cursor: pointer;
+}

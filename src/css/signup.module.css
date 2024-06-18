@@ -1,0 +1,115 @@
+.change{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00008b;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.lag{
+    color: rgb(39, 224, 39);
+    font-size: 3em;
+    font-weight: 900;
+
+}
+.quit{
+    background: red;
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: 900;
+}
+.lag2{
+    color: white;
+    margin: 1em 0;
+    font-size: 2em;
+}
+.text, .text3{
+    height: 3em;
+    width: 30vw;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+.text{
+    width: 27vw;
+
+}
+.but{
+    background: lightgreen;
+    margin-top: 3em;
+    height: 3em;
+    width: 28vw;
+    font-weight: 900;
+    font-size: 1.1em;
+    cursor:pointer;
+    border:none;
+}
+.but:hover{
+    background: rgb(213, 240, 204);
+}
+.h3{
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 6em;
+    display: flex;
+    padding-left: 5em;
+    gap: 1em;
+    justify-self: center;
+}
+.text2{
+    display: flex;
+    width: 28vw;
+    color: black;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+a{
+    color: lightgreen;
+    text-decoration: none;
+}
+label{
+    text-align: left;
+    width:30vw;
+    padding: 1em 0 1em 0;
+}
+.passwordContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 28.5vw;
+}
+
+.eyeButton {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+    width: 2em;
+}
+
+.eyeButton:hover {
+    color: #000;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+

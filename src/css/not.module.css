@@ -1,0 +1,38 @@
+.change{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00008b;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.link{
+    margin-top: 5em;
+    color: white;
+    font-size: 1.4em;
+}
+.tit{
+    margin-bottom: 4em;
+    color: white;
+    font-size: 2em;
+}
+
+.high{
+    height: 10em;
+    width: 10em;
+}
+.h3{
+    text-align: left;
+    width: 100vw;
+    padding-left: 2em;
+    margin-bottom: 8em;
+}

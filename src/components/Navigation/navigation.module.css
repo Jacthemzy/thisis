@@ -1,0 +1,9 @@
+.area {
+    cursor: pointer;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    text-align: left;
+
+}
+

@@ -1,0 +1,52 @@
+.change{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00008b;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.text, .but{
+    height: 3em;
+    width: 30vw;
+}
+.but{
+    background: lightgreen;
+    margin-top: 3em;
+    border:none;
+}
+label{
+    text-align: left;
+    width:30vw;
+    padding: 1em 0 1em 0;
+}
+
+.h3{
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8em;
+    padding-left: 5em;
+    gap: 1em;
+    justify-self: center;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
